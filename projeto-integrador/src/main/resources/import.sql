@@ -8,6 +8,11 @@ insert into Categoria (nome) values ('Doces');
 insert into Categoria (nome) values ('Padraria');
 insert into Categoria (nome) values ('Higiene Pessoal');
 insert into Categoria (nome) values ('Mercearia');
+insert into Categoria (nome) values ('Utilidades');
+insert into Categoria (nome) values ('Eletrônicos');
+insert into Categoria (nome) values ('Papelaria');
+insert into Categoria (nome) values ('Cosméticos');
+insert into Categoria (nome) values ('Especiarias');
 
 insert into Fabricante (nome) values ('JBS');
 insert into Fabricante (nome) values ('The Coca Cola Company');
@@ -19,6 +24,11 @@ insert into Fabricante (nome) values ('Unilever');
 insert into Fabricante (nome) values ('OMO');
 insert into Fabricante (nome) values ('Mondelez');
 insert into Fabricante (nome) values ('Tirolez');
+insert into Fabricante (nome) values ('Samsung');
+insert into Fabricante (nome) values ('Faber-Castell');
+insert into Fabricante (nome) values ('Tramontina');
+insert into Fabricante (nome) values ('Boticário');
+insert into Fabricante (nome) values ('Ajinomoto');
 
 insert into Produto (nome, quantidade, preco, validade, categoria_codigo, fabricante_codigo) values ('Coca-Cola 2 Litros', 20, 12.50, '2025-12-20', 1, 2);
 insert into Produto (nome, quantidade, preco, validade, categoria_codigo, fabricante_codigo) values ('Cerveja Budweiser Lata 350ml', 200, 4.20, '2026-06-15', 1, 3);
@@ -30,6 +40,11 @@ insert into Produto (nome, quantidade, preco, validade, categoria_codigo, fabric
 insert into Produto (nome, quantidade, preco, validade, categoria_codigo, fabricante_codigo) values ('Chocolate Lacta Oreo 90g', 300, 6.50, '2026-05-30', 7, 9);
 insert into Produto (nome, quantidade, preco, validade, categoria_codigo, fabricante_codigo) values ('Shampoo Clear Men 2 em 1', 90, 15.90, '2027-04-12', 9, 7);
 insert into Produto (nome, quantidade, preco, validade, categoria_codigo, fabricante_codigo) values ('Café em Pó 3 Corações 500g', 180, 12.99, '2026-08-20', 10, 5);
+insert into Produto (nome, quantidade, preco, validade, categoria_codigo, fabricante_codigo) values ('Smartphone Galaxy A34', 15, 1799.90, '2030-01-01', 12, 11);
+insert into Produto (nome, quantidade, preco, validade, categoria_codigo, fabricante_codigo) values ('Caneta Esferográfica Azul', 500, 1.80, '2030-01-01', 13, 12);
+insert into Produto (nome, quantidade, preco, validade, categoria_codigo, fabricante_codigo) values ('Panela de Pressão Inox 4.5L', 40, 185.00, '2030-01-01', 11, 13);
+insert into Produto (nome, quantidade, preco, validade, categoria_codigo, fabricante_codigo) values ('Desodorante Antitranspirante', 150, 19.90, '2027-10-30', 9, 14);
+insert into Produto (nome, quantidade, preco, validade, categoria_codigo, fabricante_codigo) values ('Leite Condensado Moça', 220, 7.90, '2026-03-15', 6, 5);
 
 insert into Funcionario (cpf, nome) values (12345678928, 'José');
 insert into Funcionario (cpf, nome) values (02545678928, 'Maria');
@@ -41,6 +56,11 @@ insert into Funcionario (cpf, nome) values (12345615728, 'Bruna');
 insert into Funcionario (cpf, nome) values (12326778928, 'Paulo');
 insert into Funcionario (cpf, nome) values (12395878928, 'Thais');
 insert into Funcionario (cpf, nome) values (12345678905, 'Meire');
+insert into Funcionario (cpf, nome) values (12345678001, 'Renato');
+insert into Funcionario (cpf, nome) values (12345678002, 'Sofia');
+insert into Funcionario (cpf, nome) values (12345678003, 'Daniel');
+insert into Funcionario (cpf, nome) values (12345678004, 'Patrícia');
+insert into Funcionario (cpf, nome) values (12345678005, 'Marcelo');
 
 
 insert into Cliente (cpf, nome) values (12344678928, 'Felipe');
@@ -53,6 +73,11 @@ insert into Cliente (cpf, nome) values (53698418928, 'Daphne');
 insert into Cliente (cpf, nome) values (12345658234, 'Victor');
 insert into Cliente (cpf, nome) values (12345625647, 'Lucas');
 insert into Cliente (cpf, nome) values (12549876315, 'Rita');
+insert into Cliente (cpf, nome) values (98765432101, 'Gustavo');
+insert into Cliente (cpf, nome) values (98765432102, 'Tatiana');
+insert into Cliente (cpf, nome) values (98765432103, 'Ricardo');
+insert into Cliente (cpf, nome) values (98765432104, 'Helena');
+insert into Cliente (cpf, nome) values (98765432105, 'Érica');
 
 insert into Venda (quantidadeTotal, valorTotal, horario, cliente_codigo, funcionario_codigo) values (1, 12.50, '2025-09-02 13:56:51', 4, 3);
 insert into Venda (quantidadeTotal, valorTotal, horario, cliente_codigo, funcionario_codigo) values (2, 25.00, '2025-09-02 14:01:22', 1, 2);
